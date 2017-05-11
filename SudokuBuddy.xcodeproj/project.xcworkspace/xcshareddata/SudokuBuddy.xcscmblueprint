@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "680AF3F3A4FBC790F46FF98C30424A1C0A82F501",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "680AF3F3A4FBC790F46FF98C30424A1C0A82F501" : 9223372036854775807,
+    "7B2510E0D010918EAE5D040058605AA8269B9666" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "18A7CDD5-B2E5-4D95-9BAC-7C28B036387E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "680AF3F3A4FBC790F46FF98C30424A1C0A82F501" : "SudokuBuddy\/",
+    "7B2510E0D010918EAE5D040058605AA8269B9666" : "SudokuSolver\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SudokuBuddy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SudokuBuddy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pschuette22\/SudokuBuddy-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "680AF3F3A4FBC790F46FF98C30424A1C0A82F501"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pschuette22\/SudokuSolver.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B2510E0D010918EAE5D040058605AA8269B9666"
+    }
+  ]
+}

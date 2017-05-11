@@ -113,7 +113,13 @@ class DigitRecognizer {
         }
         
         isTrained = true
-        
+        for y in 0..<pixelMap.count {
+            var line = ""
+            for x in 0..<pixelMap[0].count {
+                line += pixelMap[y][x].printValue()
+            }
+            print(line)
+        }
     }
     
     

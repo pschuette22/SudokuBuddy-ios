@@ -47,6 +47,14 @@ class PuzzleRecognizerTests: XCTestCase {
             }
             print("\n")
             
+            
+            // Solve the puzzle
+            let board = Board(values: puzzle)
+            board.solve()
+            
+            board.print()
+            
+            
         } catch {
             XCTAssert(false)
             return
