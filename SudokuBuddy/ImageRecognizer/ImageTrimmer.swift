@@ -98,7 +98,6 @@ public class ImageTrimmer {
         var miny = py!-1
         var maxx = px!+1
         var maxy = py!+1
-        image.debugPrint()
         mainLoop: while minx>=0, miny>=0, maxx<pixels[0].count, maxy < pixels.count {
             // Expand the x bounds
             for y in miny...maxy {
@@ -131,7 +130,6 @@ public class ImageTrimmer {
         let croppedFrame = CGRect(origin: origin, size: size)
         let clone = image.clone()
         trimmedImage = clone?.crop(rect: croppedFrame)
-        trimmedImage?.debugPrint()
         
     }
     

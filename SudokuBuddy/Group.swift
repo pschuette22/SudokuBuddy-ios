@@ -13,7 +13,7 @@ class Group {
 
     weak var board: Board?
     
-    var cells: [Cell]!
+    var cells: [Cell] = []
     
     var solved = 0
 
@@ -71,7 +71,7 @@ class Group {
                     // Possibilities in
                     let potentialCells = orderedArr.filter({$0.possibilities <= cellsInvolved})
                     
-                    if potentialCells.count >= cellsInvolved {
+                    if potentialCells.count >= cellsInvolved && cellsInvolved > 0 {
                         let combos = combinations(cells: potentialCells, count: cellsInvolved)
                         
                         for combo in combos {
@@ -125,14 +125,13 @@ class Group {
             return [cells]
         }
         
-        var result: [[Cell]]!
+        var result: [[Cell]] = []
         
         if count > 0 {
             
             if count == 1 {
                 result = cells.map({[$0]})
             } else {
-                result = []
                 let rest = Array(cells.suffix(from: 1))
                 let sub_combos = combinations(cells: rest, count: count-1)
                 
@@ -147,9 +146,6 @@ class Group {
                 
             }
             
-        }
-        if result == nil {
-            print("err")
         }
         
         return result

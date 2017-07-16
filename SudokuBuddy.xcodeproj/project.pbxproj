@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F8FC55FF7CC1F608D35B6F1 /* Pods_SudokuBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5866D3217C573B0E586B2988 /* Pods_SudokuBuddyTests.framework */; };
+		3D2BA1D1D5BAA2CD4960601C /* Pods_SudokuBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA91BD718A93E15EBFA4CD1 /* Pods_SudokuBuddy.framework */; };
+		6007E40A1ECA6ED200F92CD8 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007E4091ECA6ED200F92CD8 /* UploadViewController.swift */; };
+		6007E40D1ECA8C2400F92CD8 /* SolverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007E40C1ECA8C2400F92CD8 /* SolverViewController.swift */; };
+		6007E4691ECABCD800F92CD8 /* img10.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4651ECABCD800F92CD8 /* img10.png */; };
+		6007E46A1ECABCD800F92CD8 /* img11.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4661ECABCD800F92CD8 /* img11.png */; };
+		6007E46B1ECABCD800F92CD8 /* img12.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4671ECABCD800F92CD8 /* img12.png */; };
+		6007E46C1ECABCD800F92CD8 /* img13.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4681ECABCD800F92CD8 /* img13.png */; };
+		6007E4711ECABD3700F92CD8 /* img20.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E46D1ECABD3700F92CD8 /* img20.png */; };
+		6007E4721ECABD3700F92CD8 /* img21.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E46E1ECABD3700F92CD8 /* img21.png */; };
+		6007E4731ECABD3700F92CD8 /* img22.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E46F1ECABD3700F92CD8 /* img22.png */; };
+		6007E4741ECABD3700F92CD8 /* img23.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4701ECABD3700F92CD8 /* img23.png */; };
+		6007E4791ECABD7600F92CD8 /* img30.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4751ECABD7600F92CD8 /* img30.png */; };
+		6007E47A1ECABD7600F92CD8 /* img31.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4761ECABD7600F92CD8 /* img31.png */; };
+		6007E47B1ECABD7600F92CD8 /* img32.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4771ECABD7600F92CD8 /* img32.png */; };
+		6007E47C1ECABD7600F92CD8 /* img33.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4781ECABD7600F92CD8 /* img33.png */; };
+		6007E4811ECABDB100F92CD8 /* img40.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E47D1ECABDB100F92CD8 /* img40.png */; };
+		6007E4821ECABDB100F92CD8 /* img41.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E47E1ECABDB100F92CD8 /* img41.png */; };
+		6007E4831ECABDB100F92CD8 /* img42.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E47F1ECABDB100F92CD8 /* img42.png */; };
+		6007E4841ECABDB100F92CD8 /* img43.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4801ECABDB100F92CD8 /* img43.png */; };
+		6007E4891ECABDFA00F92CD8 /* img50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4851ECABDFA00F92CD8 /* img50.png */; };
+		6007E48A1ECABDFA00F92CD8 /* img51.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4861ECABDFA00F92CD8 /* img51.png */; };
+		6007E48B1ECABDFA00F92CD8 /* img52.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4871ECABDFA00F92CD8 /* img52.png */; };
+		6007E48C1ECABDFA00F92CD8 /* img53.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4881ECABDFA00F92CD8 /* img53.png */; };
+		6007E4911ECABE4300F92CD8 /* img60.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E48D1ECABE4300F92CD8 /* img60.png */; };
+		6007E4921ECABE4300F92CD8 /* img61.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E48E1ECABE4300F92CD8 /* img61.png */; };
+		6007E4931ECABE4300F92CD8 /* img62.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E48F1ECABE4300F92CD8 /* img62.png */; };
+		6007E4941ECABE4300F92CD8 /* img63.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4901ECABE4300F92CD8 /* img63.png */; };
+		6007E4991ECABE8000F92CD8 /* img70.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4951ECABE8000F92CD8 /* img70.png */; };
+		6007E49A1ECABE8000F92CD8 /* img71.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4961ECABE8000F92CD8 /* img71.png */; };
+		6007E49B1ECABE8000F92CD8 /* img72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4971ECABE8000F92CD8 /* img72.png */; };
+		6007E49C1ECABE8000F92CD8 /* img73.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4981ECABE8000F92CD8 /* img73.png */; };
+		6007E4A11ECABEB900F92CD8 /* img80.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E49D1ECABEB900F92CD8 /* img80.png */; };
+		6007E4A21ECABEB900F92CD8 /* img81.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E49E1ECABEB900F92CD8 /* img81.png */; };
+		6007E4A31ECABEB900F92CD8 /* img82.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E49F1ECABEB900F92CD8 /* img82.png */; };
+		6007E4A41ECABEB900F92CD8 /* img83.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4A01ECABEB900F92CD8 /* img83.png */; };
+		6007E4A91ECABEE900F92CD8 /* img90.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4A51ECABEE900F92CD8 /* img90.png */; };
+		6007E4AA1ECABEE900F92CD8 /* img91.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4A61ECABEE900F92CD8 /* img91.png */; };
+		6007E4AB1ECABEE900F92CD8 /* img92.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4A71ECABEE900F92CD8 /* img92.png */; };
+		6007E4AC1ECABEE900F92CD8 /* img93.png in Resources */ = {isa = PBXBuildFile; fileRef = 6007E4A81ECABEE900F92CD8 /* img93.png */; };
 		603EAA471EA84D3C00AA97CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EAA461EA84D3C00AA97CE /* AppDelegate.swift */; };
 		603EAA4C1EA84D3C00AA97CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603EAA4A1EA84D3C00AA97CE /* Main.storyboard */; };
 		603EAA4F1EA84D3C00AA97CE /* SudokuBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 603EAA4D1EA84D3C00AA97CE /* SudokuBuddy.xcdatamodeld */; };
@@ -14,38 +54,11 @@
 		603EAA541EA84D3C00AA97CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603EAA521EA84D3C00AA97CE /* LaunchScreen.storyboard */; };
 		603EAA5F1EA84D3C00AA97CE /* SudokuBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EAA5E1EA84D3C00AA97CE /* SudokuBuddyTests.swift */; };
 		603EAA6A1EA84D3C00AA97CE /* SudokuBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EAA691EA84D3C00AA97CE /* SudokuBuddyUITests.swift */; };
-		603EAA781EA853DB00AA97CE /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EAA771EA853DB00AA97CE /* ScannerViewController.swift */; };
+		603EAA781EA853DB00AA97CE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EAA771EA853DB00AA97CE /* CameraViewController.swift */; };
+		6052ADEE1EC7D29D00832B39 /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6052ADED1EC7D29D00832B39 /* PhotoEditingViewController.swift */; };
 		60579C0C1EC68F7500BA5FF4 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60579C0B1EC68F7500BA5FF4 /* EntryViewController.swift */; };
 		60579C0E1EC6D53600BA5FF4 /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60579C0D1EC6D53600BA5FF4 /* PuzzleView.swift */; };
 		606385211EC3C7BE003976A9 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606385201EC3C7BE003976A9 /* UIImage.swift */; };
-		6063852A1EC40A80003976A9 /* img30.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385291EC40A80003976A9 /* img30.png */; };
-		6063852C1EC40A96003976A9 /* img40.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063852B1EC40A96003976A9 /* img40.png */; };
-		6063852E1EC40AAA003976A9 /* img50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063852D1EC40AAA003976A9 /* img50.png */; };
-		606385301EC40ABB003976A9 /* img60.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063852F1EC40ABB003976A9 /* img60.png */; };
-		606385321EC40AD1003976A9 /* img70.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385311EC40AD1003976A9 /* img70.png */; };
-		606385341EC40AE5003976A9 /* img80.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385331EC40AE5003976A9 /* img80.png */; };
-		606385361EC40AFF003976A9 /* img90.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385351EC40AFF003976A9 /* img90.png */; };
-		606385381EC40B48003976A9 /* img31.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385371EC40B48003976A9 /* img31.png */; };
-		6063853A1EC40B4E003976A9 /* img41.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385391EC40B4E003976A9 /* img41.png */; };
-		6063853C1EC40B57003976A9 /* img51.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063853B1EC40B57003976A9 /* img51.png */; };
-		6063853E1EC40B5A003976A9 /* img61.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063853D1EC40B5A003976A9 /* img61.png */; };
-		606385401EC40B5E003976A9 /* img71.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063853F1EC40B5E003976A9 /* img71.png */; };
-		606385421EC40B61003976A9 /* img81.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385411EC40B61003976A9 /* img81.png */; };
-		606385441EC40B65003976A9 /* img91.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385431EC40B65003976A9 /* img91.png */; };
-		606385461EC40BBA003976A9 /* img32.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385451EC40BBA003976A9 /* img32.png */; };
-		606385481EC40BBD003976A9 /* img42.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385471EC40BBD003976A9 /* img42.png */; };
-		6063854A1EC40BC0003976A9 /* img52.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385491EC40BC0003976A9 /* img52.png */; };
-		6063854C1EC40BC3003976A9 /* img62.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063854B1EC40BC3003976A9 /* img62.png */; };
-		6063854E1EC40BC7003976A9 /* img72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063854D1EC40BC7003976A9 /* img72.png */; };
-		606385501EC40BCA003976A9 /* img82.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063854F1EC40BCA003976A9 /* img82.png */; };
-		606385521EC40BCD003976A9 /* img92.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385511EC40BCD003976A9 /* img92.png */; };
-		606385541EC40C23003976A9 /* img33.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385531EC40C23003976A9 /* img33.png */; };
-		606385561EC40C27003976A9 /* img43.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385551EC40C27003976A9 /* img43.png */; };
-		606385581EC40C2A003976A9 /* img53.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385571EC40C2A003976A9 /* img53.png */; };
-		6063855A1EC40C2F003976A9 /* img63.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385591EC40C2F003976A9 /* img63.png */; };
-		6063855C1EC40C32003976A9 /* img73.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063855B1EC40C32003976A9 /* img73.png */; };
-		6063855E1EC40C35003976A9 /* img83.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063855D1EC40C35003976A9 /* img83.png */; };
-		606385601EC40C3A003976A9 /* img93.png in Resources */ = {isa = PBXBuildFile; fileRef = 6063855F1EC40C3A003976A9 /* img93.png */; };
 		606385621EC412F3003976A9 /* PuzzleRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606385611EC412F3003976A9 /* PuzzleRecognizer.swift */; };
 		606385651EC41B9A003976A9 /* puzzle0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 606385641EC41B9A003976A9 /* puzzle0.jpg */; };
 		606385671EC41BCD003976A9 /* puzzle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 606385661EC41BCD003976A9 /* puzzle1.png */; };
@@ -62,14 +75,7 @@
 		609D335E1EC4FD4A000BB832 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D33551EC4FD4A000BB832 /* Row.swift */; };
 		609D335F1EC4FD4A000BB832 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D33561EC4FD4A000BB832 /* Square.swift */; };
 		609D33601EC4FD4A000BB832 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D33571EC4FD4A000BB832 /* Utils.swift */; };
-		60EEFCFC1EB9423600D3EC43 /* img11.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EEFCF61EB9423600D3EC43 /* img11.png */; };
-		60EEFCFD1EB9423600D3EC43 /* img12.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EEFCF71EB9423600D3EC43 /* img12.png */; };
-		60EEFCFE1EB9423600D3EC43 /* img13.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EEFCF81EB9423600D3EC43 /* img13.png */; };
-		60EEFD011EB9423600D3EC43 /* img10.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EEFCFB1EB9423600D3EC43 /* img10.png */; };
-		60EEFD081EB9426000D3EC43 /* img20.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EEFD021EB9426000D3EC43 /* img20.png */; };
-		60EEFD091EB9426000D3EC43 /* img21.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EEFD031EB9426000D3EC43 /* img21.png */; };
-		60EEFD0A1EB9426000D3EC43 /* img22.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EEFD041EB9426000D3EC43 /* img22.png */; };
-		60EEFD0B1EB9426000D3EC43 /* img23.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EEFD051EB9426000D3EC43 /* img23.png */; };
+		6B0317701C8C7E0AC29888BC /* Pods_SudokuBuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ADE4197B2B9E4A6A2B0435 /* Pods_SudokuBuddyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +103,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047A363EF5F686EC5647FBFD /* Pods-SudokuBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuBuddyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SudokuBuddyUITests/Pods-SudokuBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FD84DF5EC0B4B16594CE1EB /* Pods-SudokuBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuBuddyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SudokuBuddyTests/Pods-SudokuBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		1BF3573C72F9D399AA038610 /* Pods-SudokuBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SudokuBuddy/Pods-SudokuBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA91BD718A93E15EBFA4CD1 /* Pods_SudokuBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudokuBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ADE4197B2B9E4A6A2B0435 /* Pods_SudokuBuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudokuBuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5866D3217C573B0E586B2988 /* Pods_SudokuBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudokuBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6007E4091ECA6ED200F92CD8 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		6007E40C1ECA8C2400F92CD8 /* SolverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverViewController.swift; sourceTree = "<group>"; };
+		6007E4651ECABCD800F92CD8 /* img10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img10.png; sourceTree = "<group>"; };
+		6007E4661ECABCD800F92CD8 /* img11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img11.png; sourceTree = "<group>"; };
+		6007E4671ECABCD800F92CD8 /* img12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img12.png; sourceTree = "<group>"; };
+		6007E4681ECABCD800F92CD8 /* img13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img13.png; sourceTree = "<group>"; };
+		6007E46D1ECABD3700F92CD8 /* img20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img20.png; sourceTree = "<group>"; };
+		6007E46E1ECABD3700F92CD8 /* img21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img21.png; sourceTree = "<group>"; };
+		6007E46F1ECABD3700F92CD8 /* img22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img22.png; sourceTree = "<group>"; };
+		6007E4701ECABD3700F92CD8 /* img23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img23.png; sourceTree = "<group>"; };
+		6007E4751ECABD7600F92CD8 /* img30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img30.png; sourceTree = "<group>"; };
+		6007E4761ECABD7600F92CD8 /* img31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img31.png; sourceTree = "<group>"; };
+		6007E4771ECABD7600F92CD8 /* img32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img32.png; sourceTree = "<group>"; };
+		6007E4781ECABD7600F92CD8 /* img33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img33.png; sourceTree = "<group>"; };
+		6007E47D1ECABDB100F92CD8 /* img40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img40.png; sourceTree = "<group>"; };
+		6007E47E1ECABDB100F92CD8 /* img41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img41.png; sourceTree = "<group>"; };
+		6007E47F1ECABDB100F92CD8 /* img42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img42.png; sourceTree = "<group>"; };
+		6007E4801ECABDB100F92CD8 /* img43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img43.png; sourceTree = "<group>"; };
+		6007E4851ECABDFA00F92CD8 /* img50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img50.png; sourceTree = "<group>"; };
+		6007E4861ECABDFA00F92CD8 /* img51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img51.png; sourceTree = "<group>"; };
+		6007E4871ECABDFA00F92CD8 /* img52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img52.png; sourceTree = "<group>"; };
+		6007E4881ECABDFA00F92CD8 /* img53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img53.png; sourceTree = "<group>"; };
+		6007E48D1ECABE4300F92CD8 /* img60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img60.png; sourceTree = "<group>"; };
+		6007E48E1ECABE4300F92CD8 /* img61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img61.png; sourceTree = "<group>"; };
+		6007E48F1ECABE4300F92CD8 /* img62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img62.png; sourceTree = "<group>"; };
+		6007E4901ECABE4300F92CD8 /* img63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img63.png; sourceTree = "<group>"; };
+		6007E4951ECABE8000F92CD8 /* img70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img70.png; sourceTree = "<group>"; };
+		6007E4961ECABE8000F92CD8 /* img71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img71.png; sourceTree = "<group>"; };
+		6007E4971ECABE8000F92CD8 /* img72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img72.png; sourceTree = "<group>"; };
+		6007E4981ECABE8000F92CD8 /* img73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img73.png; sourceTree = "<group>"; };
+		6007E49D1ECABEB900F92CD8 /* img80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img80.png; sourceTree = "<group>"; };
+		6007E49E1ECABEB900F92CD8 /* img81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img81.png; sourceTree = "<group>"; };
+		6007E49F1ECABEB900F92CD8 /* img82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img82.png; sourceTree = "<group>"; };
+		6007E4A01ECABEB900F92CD8 /* img83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img83.png; sourceTree = "<group>"; };
+		6007E4A51ECABEE900F92CD8 /* img90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img90.png; sourceTree = "<group>"; };
+		6007E4A61ECABEE900F92CD8 /* img91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img91.png; sourceTree = "<group>"; };
+		6007E4A71ECABEE900F92CD8 /* img92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img92.png; sourceTree = "<group>"; };
+		6007E4A81ECABEE900F92CD8 /* img93.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img93.png; sourceTree = "<group>"; };
 		603EAA431EA84D3C00AA97CE /* SudokuBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokuBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603EAA461EA84D3C00AA97CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		603EAA4B1EA84D3C00AA97CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,38 +160,11 @@
 		603EAA651EA84D3C00AA97CE /* SudokuBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		603EAA691EA84D3C00AA97CE /* SudokuBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuBuddyUITests.swift; sourceTree = "<group>"; };
 		603EAA6B1EA84D3C00AA97CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		603EAA771EA853DB00AA97CE /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		603EAA771EA853DB00AA97CE /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		6052ADED1EC7D29D00832B39 /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
 		60579C0B1EC68F7500BA5FF4 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		60579C0D1EC6D53600BA5FF4 /* PuzzleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
 		606385201EC3C7BE003976A9 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = ImageRecognizer/UIImage.swift; sourceTree = "<group>"; };
-		606385291EC40A80003976A9 /* img30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img30.png; sourceTree = "<group>"; };
-		6063852B1EC40A96003976A9 /* img40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img40.png; sourceTree = "<group>"; };
-		6063852D1EC40AAA003976A9 /* img50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img50.png; sourceTree = "<group>"; };
-		6063852F1EC40ABB003976A9 /* img60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img60.png; sourceTree = "<group>"; };
-		606385311EC40AD1003976A9 /* img70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img70.png; sourceTree = "<group>"; };
-		606385331EC40AE5003976A9 /* img80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img80.png; sourceTree = "<group>"; };
-		606385351EC40AFF003976A9 /* img90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img90.png; sourceTree = "<group>"; };
-		606385371EC40B48003976A9 /* img31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img31.png; sourceTree = "<group>"; };
-		606385391EC40B4E003976A9 /* img41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img41.png; sourceTree = "<group>"; };
-		6063853B1EC40B57003976A9 /* img51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img51.png; sourceTree = "<group>"; };
-		6063853D1EC40B5A003976A9 /* img61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img61.png; sourceTree = "<group>"; };
-		6063853F1EC40B5E003976A9 /* img71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img71.png; sourceTree = "<group>"; };
-		606385411EC40B61003976A9 /* img81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img81.png; sourceTree = "<group>"; };
-		606385431EC40B65003976A9 /* img91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img91.png; sourceTree = "<group>"; };
-		606385451EC40BBA003976A9 /* img32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img32.png; sourceTree = "<group>"; };
-		606385471EC40BBD003976A9 /* img42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img42.png; sourceTree = "<group>"; };
-		606385491EC40BC0003976A9 /* img52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img52.png; sourceTree = "<group>"; };
-		6063854B1EC40BC3003976A9 /* img62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img62.png; sourceTree = "<group>"; };
-		6063854D1EC40BC7003976A9 /* img72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img72.png; sourceTree = "<group>"; };
-		6063854F1EC40BCA003976A9 /* img82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img82.png; sourceTree = "<group>"; };
-		606385511EC40BCD003976A9 /* img92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img92.png; sourceTree = "<group>"; };
-		606385531EC40C23003976A9 /* img33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img33.png; sourceTree = "<group>"; };
-		606385551EC40C27003976A9 /* img43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img43.png; sourceTree = "<group>"; };
-		606385571EC40C2A003976A9 /* img53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img53.png; sourceTree = "<group>"; };
-		606385591EC40C2F003976A9 /* img63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img63.png; sourceTree = "<group>"; };
-		6063855B1EC40C32003976A9 /* img73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img73.png; sourceTree = "<group>"; };
-		6063855D1EC40C35003976A9 /* img83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img83.png; sourceTree = "<group>"; };
-		6063855F1EC40C3A003976A9 /* img93.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img93.png; sourceTree = "<group>"; };
 		606385611EC412F3003976A9 /* PuzzleRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleRecognizer.swift; sourceTree = "<group>"; };
 		606385641EC41B9A003976A9 /* puzzle0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puzzle0.jpg; sourceTree = "<group>"; };
 		606385661EC41BCD003976A9 /* puzzle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puzzle1.png; sourceTree = "<group>"; };
@@ -159,14 +182,9 @@
 		609D33551EC4FD4A000BB832 /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		609D33561EC4FD4A000BB832 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		609D33571EC4FD4A000BB832 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		60EEFCF61EB9423600D3EC43 /* img11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img11.png; path = TrainingData/1/img11.png; sourceTree = SOURCE_ROOT; };
-		60EEFCF71EB9423600D3EC43 /* img12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img12.png; path = TrainingData/1/img12.png; sourceTree = SOURCE_ROOT; };
-		60EEFCF81EB9423600D3EC43 /* img13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img13.png; path = TrainingData/1/img13.png; sourceTree = SOURCE_ROOT; };
-		60EEFCFB1EB9423600D3EC43 /* img10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img10.png; path = TrainingData/1/img10.png; sourceTree = SOURCE_ROOT; };
-		60EEFD021EB9426000D3EC43 /* img20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img20.png; path = TrainingData/2/img20.png; sourceTree = SOURCE_ROOT; };
-		60EEFD031EB9426000D3EC43 /* img21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img21.png; path = TrainingData/2/img21.png; sourceTree = SOURCE_ROOT; };
-		60EEFD041EB9426000D3EC43 /* img22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img22.png; path = TrainingData/2/img22.png; sourceTree = SOURCE_ROOT; };
-		60EEFD051EB9426000D3EC43 /* img23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img23.png; path = TrainingData/2/img23.png; sourceTree = SOURCE_ROOT; };
+		A29276F75B70D619620169F7 /* Pods-SudokuBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuBuddyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SudokuBuddyTests/Pods-SudokuBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB809C8D8DA1ACEEF0701D37 /* Pods-SudokuBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuBuddyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SudokuBuddyUITests/Pods-SudokuBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BAA751E3DE0526609ED15321 /* Pods-SudokuBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-SudokuBuddy/Pods-SudokuBuddy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2BA1D1D5BAA2CD4960601C /* Pods_SudokuBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8FC55FF7CC1F608D35B6F1 /* Pods_SudokuBuddyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,12 +208,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0317701C8C7E0AC29888BC /* Pods_SudokuBuddyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35757A3FE8830563C2227C8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3573C72F9D399AA038610 /* Pods-SudokuBuddy.debug.xcconfig */,
+				BAA751E3DE0526609ED15321 /* Pods-SudokuBuddy.release.xcconfig */,
+				A29276F75B70D619620169F7 /* Pods-SudokuBuddyTests.debug.xcconfig */,
+				0FD84DF5EC0B4B16594CE1EB /* Pods-SudokuBuddyTests.release.xcconfig */,
+				047A363EF5F686EC5647FBFD /* Pods-SudokuBuddyUITests.debug.xcconfig */,
+				AB809C8D8DA1ACEEF0701D37 /* Pods-SudokuBuddyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		603EAA3A1EA84D3C00AA97CE = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +236,7 @@
 				603EAA681EA84D3C00AA97CE /* SudokuBuddyUITests */,
 				603EAA441EA84D3C00AA97CE /* Products */,
 				609D33471EC4F0BF000BB832 /* Frameworks */,
+				35757A3FE8830563C2227C8B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,9 +263,12 @@
 				603EAA521EA84D3C00AA97CE /* LaunchScreen.storyboard */,
 				603EAA551EA84D3C00AA97CE /* Info.plist */,
 				603EAA4D1EA84D3C00AA97CE /* SudokuBuddy.xcdatamodeld */,
-				603EAA771EA853DB00AA97CE /* ScannerViewController.swift */,
-				60579C061EC67F5900BA5FF4 /* PuzzleUI */,
+				60579C0D1EC6D53600BA5FF4 /* PuzzleView.swift */,
+				603EAA771EA853DB00AA97CE /* CameraViewController.swift */,
 				60579C0B1EC68F7500BA5FF4 /* EntryViewController.swift */,
+				6052ADED1EC7D29D00832B39 /* PhotoEditingViewController.swift */,
+				6007E4091ECA6ED200F92CD8 /* UploadViewController.swift */,
+				6007E40C1ECA8C2400F92CD8 /* SolverViewController.swift */,
 			);
 			path = SudokuBuddy;
 			sourceTree = "<group>";
@@ -254,21 +292,13 @@
 			path = SudokuBuddyUITests;
 			sourceTree = "<group>";
 		};
-		60579C061EC67F5900BA5FF4 /* PuzzleUI */ = {
-			isa = PBXGroup;
-			children = (
-				60579C0D1EC6D53600BA5FF4 /* PuzzleView.swift */,
-			);
-			name = PuzzleUI;
-			sourceTree = "<group>";
-		};
 		606385221EC4060A003976A9 /* 3 */ = {
 			isa = PBXGroup;
 			children = (
-				606385291EC40A80003976A9 /* img30.png */,
-				606385371EC40B48003976A9 /* img31.png */,
-				606385451EC40BBA003976A9 /* img32.png */,
-				606385531EC40C23003976A9 /* img33.png */,
+				6007E4751ECABD7600F92CD8 /* img30.png */,
+				6007E4761ECABD7600F92CD8 /* img31.png */,
+				6007E4771ECABD7600F92CD8 /* img32.png */,
+				6007E4781ECABD7600F92CD8 /* img33.png */,
 			);
 			name = 3;
 			sourceTree = "<group>";
@@ -276,10 +306,10 @@
 		606385231EC40614003976A9 /* 4 */ = {
 			isa = PBXGroup;
 			children = (
-				6063852B1EC40A96003976A9 /* img40.png */,
-				606385391EC40B4E003976A9 /* img41.png */,
-				606385471EC40BBD003976A9 /* img42.png */,
-				606385551EC40C27003976A9 /* img43.png */,
+				6007E47D1ECABDB100F92CD8 /* img40.png */,
+				6007E47E1ECABDB100F92CD8 /* img41.png */,
+				6007E47F1ECABDB100F92CD8 /* img42.png */,
+				6007E4801ECABDB100F92CD8 /* img43.png */,
 			);
 			name = 4;
 			sourceTree = "<group>";
@@ -287,10 +317,10 @@
 		606385241EC4061F003976A9 /* 5 */ = {
 			isa = PBXGroup;
 			children = (
-				6063852D1EC40AAA003976A9 /* img50.png */,
-				6063853B1EC40B57003976A9 /* img51.png */,
-				606385491EC40BC0003976A9 /* img52.png */,
-				606385571EC40C2A003976A9 /* img53.png */,
+				6007E4851ECABDFA00F92CD8 /* img50.png */,
+				6007E4861ECABDFA00F92CD8 /* img51.png */,
+				6007E4871ECABDFA00F92CD8 /* img52.png */,
+				6007E4881ECABDFA00F92CD8 /* img53.png */,
 			);
 			name = 5;
 			sourceTree = "<group>";
@@ -298,10 +328,10 @@
 		606385251EC4062B003976A9 /* 6 */ = {
 			isa = PBXGroup;
 			children = (
-				6063852F1EC40ABB003976A9 /* img60.png */,
-				6063853D1EC40B5A003976A9 /* img61.png */,
-				6063854B1EC40BC3003976A9 /* img62.png */,
-				606385591EC40C2F003976A9 /* img63.png */,
+				6007E48D1ECABE4300F92CD8 /* img60.png */,
+				6007E48E1ECABE4300F92CD8 /* img61.png */,
+				6007E48F1ECABE4300F92CD8 /* img62.png */,
+				6007E4901ECABE4300F92CD8 /* img63.png */,
 			);
 			name = 6;
 			sourceTree = "<group>";
@@ -309,10 +339,10 @@
 		606385261EC40638003976A9 /* 7 */ = {
 			isa = PBXGroup;
 			children = (
-				606385311EC40AD1003976A9 /* img70.png */,
-				6063853F1EC40B5E003976A9 /* img71.png */,
-				6063854D1EC40BC7003976A9 /* img72.png */,
-				6063855B1EC40C32003976A9 /* img73.png */,
+				6007E4951ECABE8000F92CD8 /* img70.png */,
+				6007E4961ECABE8000F92CD8 /* img71.png */,
+				6007E4971ECABE8000F92CD8 /* img72.png */,
+				6007E4981ECABE8000F92CD8 /* img73.png */,
 			);
 			name = 7;
 			sourceTree = "<group>";
@@ -320,10 +350,10 @@
 		606385271EC40651003976A9 /* 8 */ = {
 			isa = PBXGroup;
 			children = (
-				606385331EC40AE5003976A9 /* img80.png */,
-				606385411EC40B61003976A9 /* img81.png */,
-				6063854F1EC40BCA003976A9 /* img82.png */,
-				6063855D1EC40C35003976A9 /* img83.png */,
+				6007E49D1ECABEB900F92CD8 /* img80.png */,
+				6007E49E1ECABEB900F92CD8 /* img81.png */,
+				6007E49F1ECABEB900F92CD8 /* img82.png */,
+				6007E4A01ECABEB900F92CD8 /* img83.png */,
 			);
 			name = 8;
 			sourceTree = "<group>";
@@ -331,10 +361,10 @@
 		606385281EC4065B003976A9 /* 9 */ = {
 			isa = PBXGroup;
 			children = (
-				606385351EC40AFF003976A9 /* img90.png */,
-				606385431EC40B65003976A9 /* img91.png */,
-				606385511EC40BCD003976A9 /* img92.png */,
-				6063855F1EC40C3A003976A9 /* img93.png */,
+				6007E4A51ECABEE900F92CD8 /* img90.png */,
+				6007E4A61ECABEE900F92CD8 /* img91.png */,
+				6007E4A71ECABEE900F92CD8 /* img92.png */,
+				6007E4A81ECABEE900F92CD8 /* img93.png */,
 			);
 			name = 9;
 			sourceTree = "<group>";
@@ -374,6 +404,9 @@
 			isa = PBXGroup;
 			children = (
 				609D33481EC4F0BF000BB832 /* SudokuSolver.xcodeproj */,
+				2FA91BD718A93E15EBFA4CD1 /* Pods_SudokuBuddy.framework */,
+				5866D3217C573B0E586B2988 /* Pods_SudokuBuddyTests.framework */,
+				44ADE4197B2B9E4A6A2B0435 /* Pods_SudokuBuddyUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -419,10 +452,10 @@
 		60EEFCDC1EB940D400D3EC43 /* 1 */ = {
 			isa = PBXGroup;
 			children = (
-				60EEFCFB1EB9423600D3EC43 /* img10.png */,
-				60EEFCF61EB9423600D3EC43 /* img11.png */,
-				60EEFCF71EB9423600D3EC43 /* img12.png */,
-				60EEFCF81EB9423600D3EC43 /* img13.png */,
+				6007E4651ECABCD800F92CD8 /* img10.png */,
+				6007E4661ECABCD800F92CD8 /* img11.png */,
+				6007E4671ECABCD800F92CD8 /* img12.png */,
+				6007E4681ECABCD800F92CD8 /* img13.png */,
 			);
 			name = 1;
 			sourceTree = "<group>";
@@ -430,10 +463,10 @@
 		60EEFCE91EB9411700D3EC43 /* 2 */ = {
 			isa = PBXGroup;
 			children = (
-				60EEFD021EB9426000D3EC43 /* img20.png */,
-				60EEFD031EB9426000D3EC43 /* img21.png */,
-				60EEFD041EB9426000D3EC43 /* img22.png */,
-				60EEFD051EB9426000D3EC43 /* img23.png */,
+				6007E46D1ECABD3700F92CD8 /* img20.png */,
+				6007E46E1ECABD3700F92CD8 /* img21.png */,
+				6007E46F1ECABD3700F92CD8 /* img22.png */,
+				6007E4701ECABD3700F92CD8 /* img23.png */,
 			);
 			name = 2;
 			sourceTree = "<group>";
@@ -445,9 +478,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603EAA6E1EA84D3C00AA97CE /* Build configuration list for PBXNativeTarget "SudokuBuddy" */;
 			buildPhases = (
+				E56DFACECDC2A417F0EDF0AF /* [CP] Check Pods Manifest.lock */,
 				603EAA3F1EA84D3C00AA97CE /* Sources */,
 				603EAA401EA84D3C00AA97CE /* Frameworks */,
 				603EAA411EA84D3C00AA97CE /* Resources */,
+				D8DBF2902A0C376E22E092F2 /* [CP] Embed Pods Frameworks */,
+				196404B8EEB55DBF9D2E960D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -462,9 +498,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603EAA711EA84D3C00AA97CE /* Build configuration list for PBXNativeTarget "SudokuBuddyTests" */;
 			buildPhases = (
+				7540A77E17EC2AE3F53C5D1F /* [CP] Check Pods Manifest.lock */,
 				603EAA561EA84D3C00AA97CE /* Sources */,
 				603EAA571EA84D3C00AA97CE /* Frameworks */,
 				603EAA581EA84D3C00AA97CE /* Resources */,
+				364D11F071837966D7EB0D4D /* [CP] Embed Pods Frameworks */,
+				1AF0C2D442F8EC8E054A3DDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -480,9 +519,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603EAA741EA84D3C00AA97CE /* Build configuration list for PBXNativeTarget "SudokuBuddyUITests" */;
 			buildPhases = (
+				4C30177DAACA674F0DAC2955 /* [CP] Check Pods Manifest.lock */,
 				603EAA611EA84D3C00AA97CE /* Sources */,
 				603EAA621EA84D3C00AA97CE /* Frameworks */,
 				603EAA631EA84D3C00AA97CE /* Resources */,
+				937A0FACA055A6E5004CD526 /* [CP] Embed Pods Frameworks */,
+				F1977B86DBCD03EB708A770A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -564,47 +606,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606385541EC40C23003976A9 /* img33.png in Resources */,
-				6063854E1EC40BC7003976A9 /* img72.png in Resources */,
-				60EEFD081EB9426000D3EC43 /* img20.png in Resources */,
-				60EEFD0B1EB9426000D3EC43 /* img23.png in Resources */,
-				60EEFD011EB9423600D3EC43 /* img10.png in Resources */,
-				6063855A1EC40C2F003976A9 /* img63.png in Resources */,
-				606385361EC40AFF003976A9 /* img90.png in Resources */,
-				6063855C1EC40C32003976A9 /* img73.png in Resources */,
-				6063853A1EC40B4E003976A9 /* img41.png in Resources */,
+				6007E4831ECABDB100F92CD8 /* img42.png in Resources */,
+				6007E47C1ECABD7600F92CD8 /* img33.png in Resources */,
+				6007E4811ECABDB100F92CD8 /* img40.png in Resources */,
+				6007E49A1ECABE8000F92CD8 /* img71.png in Resources */,
+				6007E4A91ECABEE900F92CD8 /* img90.png in Resources */,
+				6007E4791ECABD7600F92CD8 /* img30.png in Resources */,
+				6007E48B1ECABDFA00F92CD8 /* img52.png in Resources */,
+				6007E46B1ECABCD800F92CD8 /* img12.png in Resources */,
+				6007E4941ECABE4300F92CD8 /* img63.png in Resources */,
+				6007E4711ECABD3700F92CD8 /* img20.png in Resources */,
+				6007E4A21ECABEB900F92CD8 /* img81.png in Resources */,
+				6007E48A1ECABDFA00F92CD8 /* img51.png in Resources */,
+				6007E46C1ECABCD800F92CD8 /* img13.png in Resources */,
+				6007E4741ECABD3700F92CD8 /* img23.png in Resources */,
+				6007E49B1ECABE8000F92CD8 /* img72.png in Resources */,
+				6007E4921ECABE4300F92CD8 /* img61.png in Resources */,
+				6007E4A31ECABEB900F92CD8 /* img82.png in Resources */,
+				6007E47B1ECABD7600F92CD8 /* img32.png in Resources */,
 				603EAA541EA84D3C00AA97CE /* LaunchScreen.storyboard in Resources */,
+				6007E4AA1ECABEE900F92CD8 /* img91.png in Resources */,
+				6007E4691ECABCD800F92CD8 /* img10.png in Resources */,
 				603EAA511EA84D3C00AA97CE /* Assets.xcassets in Resources */,
-				606385581EC40C2A003976A9 /* img53.png in Resources */,
-				606385301EC40ABB003976A9 /* img60.png in Resources */,
-				60EEFCFC1EB9423600D3EC43 /* img11.png in Resources */,
-				606385561EC40C27003976A9 /* img43.png in Resources */,
-				60EEFCFD1EB9423600D3EC43 /* img12.png in Resources */,
-				606385401EC40B5E003976A9 /* img71.png in Resources */,
-				6063852C1EC40A96003976A9 /* img40.png in Resources */,
-				6063854C1EC40BC3003976A9 /* img62.png in Resources */,
-				6063852E1EC40AAA003976A9 /* img50.png in Resources */,
+				6007E4931ECABE4300F92CD8 /* img62.png in Resources */,
+				6007E4AC1ECABEE900F92CD8 /* img93.png in Resources */,
+				6007E4911ECABE4300F92CD8 /* img60.png in Resources */,
+				6007E4841ECABDB100F92CD8 /* img43.png in Resources */,
+				6007E4821ECABDB100F92CD8 /* img41.png in Resources */,
+				6007E47A1ECABD7600F92CD8 /* img31.png in Resources */,
+				6007E4A41ECABEB900F92CD8 /* img83.png in Resources */,
+				6007E46A1ECABCD800F92CD8 /* img11.png in Resources */,
+				6007E4AB1ECABEE900F92CD8 /* img92.png in Resources */,
+				6007E4A11ECABEB900F92CD8 /* img80.png in Resources */,
 				606385651EC41B9A003976A9 /* puzzle0.jpg in Resources */,
-				606385441EC40B65003976A9 /* img91.png in Resources */,
-				606385481EC40BBD003976A9 /* img42.png in Resources */,
+				6007E4721ECABD3700F92CD8 /* img21.png in Resources */,
+				6007E4891ECABDFA00F92CD8 /* img50.png in Resources */,
+				6007E49C1ECABE8000F92CD8 /* img73.png in Resources */,
+				6007E4731ECABD3700F92CD8 /* img22.png in Resources */,
 				603EAA4C1EA84D3C00AA97CE /* Main.storyboard in Resources */,
-				6063853C1EC40B57003976A9 /* img51.png in Resources */,
-				606385341EC40AE5003976A9 /* img80.png in Resources */,
-				60EEFCFE1EB9423600D3EC43 /* img13.png in Resources */,
-				606385321EC40AD1003976A9 /* img70.png in Resources */,
-				6063855E1EC40C35003976A9 /* img83.png in Resources */,
-				6063853E1EC40B5A003976A9 /* img61.png in Resources */,
-				606385381EC40B48003976A9 /* img31.png in Resources */,
-				60EEFD0A1EB9426000D3EC43 /* img22.png in Resources */,
-				6063852A1EC40A80003976A9 /* img30.png in Resources */,
-				606385461EC40BBA003976A9 /* img32.png in Resources */,
-				606385521EC40BCD003976A9 /* img92.png in Resources */,
-				606385501EC40BCA003976A9 /* img82.png in Resources */,
-				606385601EC40C3A003976A9 /* img93.png in Resources */,
-				60EEFD091EB9426000D3EC43 /* img21.png in Resources */,
-				606385421EC40B61003976A9 /* img81.png in Resources */,
+				6007E4991ECABE8000F92CD8 /* img70.png in Resources */,
+				6007E48C1ECABDFA00F92CD8 /* img53.png in Resources */,
 				606385671EC41BCD003976A9 /* puzzle1.png in Resources */,
-				6063854A1EC40BC0003976A9 /* img52.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +666,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		196404B8EEB55DBF9D2E960D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudokuBuddy/Pods-SudokuBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AF0C2D442F8EC8E054A3DDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudokuBuddyTests/Pods-SudokuBuddyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		364D11F071837966D7EB0D4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudokuBuddyTests/Pods-SudokuBuddyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C30177DAACA674F0DAC2955 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7540A77E17EC2AE3F53C5D1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		937A0FACA055A6E5004CD526 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudokuBuddyUITests/Pods-SudokuBuddyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DBF2902A0C376E22E092F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudokuBuddy/Pods-SudokuBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E56DFACECDC2A417F0EDF0AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1977B86DBCD03EB708A770A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudokuBuddyUITests/Pods-SudokuBuddyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		603EAA3F1EA84D3C00AA97CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -632,6 +812,7 @@
 				603EAA4F1EA84D3C00AA97CE /* SudokuBuddy.xcdatamodeld in Sources */,
 				609D33581EC4FD4A000BB832 /* Board.swift in Sources */,
 				609D335D1EC4FD4A000BB832 /* Group.swift in Sources */,
+				6007E40D1ECA8C2400F92CD8 /* SolverViewController.swift in Sources */,
 				603EAA471EA84D3C00AA97CE /* AppDelegate.swift in Sources */,
 				60579C0E1EC6D53600BA5FF4 /* PuzzleView.swift in Sources */,
 				609D335F1EC4FD4A000BB832 /* Square.swift in Sources */,
@@ -639,13 +820,15 @@
 				608AD6EC1EB5CCB400BC39D4 /* DigitRecognizer.swift in Sources */,
 				609D335A1EC4FD4A000BB832 /* Cell.swift in Sources */,
 				6066991C1EBFB0130052D66B /* ImageTrimmer.swift in Sources */,
+				6007E40A1ECA6ED200F92CD8 /* UploadViewController.swift in Sources */,
 				6066991E1EBFDD1D0052D66B /* Pixel.swift in Sources */,
 				609D335B1EC4FD4A000BB832 /* Column.swift in Sources */,
 				609D33601EC4FD4A000BB832 /* Utils.swift in Sources */,
 				606385211EC3C7BE003976A9 /* UIImage.swift in Sources */,
 				606385621EC412F3003976A9 /* PuzzleRecognizer.swift in Sources */,
 				609D335E1EC4FD4A000BB832 /* Row.swift in Sources */,
-				603EAA781EA853DB00AA97CE /* ScannerViewController.swift in Sources */,
+				6052ADEE1EC7D29D00832B39 /* PhotoEditingViewController.swift in Sources */,
+				603EAA781EA853DB00AA97CE /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -798,6 +981,7 @@
 		};
 		603EAA6F1EA84D3C00AA97CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF3573C72F9D399AA038610 /* Pods-SudokuBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 384WS8QBWW;
@@ -811,6 +995,7 @@
 		};
 		603EAA701EA84D3C00AA97CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA751E3DE0526609ED15321 /* Pods-SudokuBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 384WS8QBWW;
@@ -824,6 +1009,7 @@
 		};
 		603EAA721EA84D3C00AA97CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29276F75B70D619620169F7 /* Pods-SudokuBuddyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -839,6 +1025,7 @@
 		};
 		603EAA731EA84D3C00AA97CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD84DF5EC0B4B16594CE1EB /* Pods-SudokuBuddyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -854,6 +1041,7 @@
 		};
 		603EAA751EA84D3C00AA97CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047A363EF5F686EC5647FBFD /* Pods-SudokuBuddyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 384WS8QBWW;
@@ -868,6 +1056,7 @@
 		};
 		603EAA761EA84D3C00AA97CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB809C8D8DA1ACEEF0701D37 /* Pods-SudokuBuddyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 384WS8QBWW;

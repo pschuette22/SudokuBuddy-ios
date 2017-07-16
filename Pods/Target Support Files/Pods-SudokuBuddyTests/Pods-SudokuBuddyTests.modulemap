@@ -1,0 +1,6 @@
+framework module Pods_SudokuBuddyTests {
+  umbrella header "Pods-SudokuBuddyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

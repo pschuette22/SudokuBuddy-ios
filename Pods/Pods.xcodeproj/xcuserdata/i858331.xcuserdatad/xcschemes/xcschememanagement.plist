@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AKImageCropperView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SudokuBuddy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SudokuBuddyTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SudokuBuddyUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0804BD1356263C7C42C641B8D521D34F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21811FE4302A9DBDA7F2AF02CAA052F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1A1CEC83E83A8AD3425223EA63A681E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D18B6B35E81A0290479283F04087F8AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

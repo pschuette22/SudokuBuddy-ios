@@ -11,13 +11,14 @@ import UIKit
 
 class EntryViewController: UIViewController {
     
+    var puzzleView: PuzzleView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let width = self.view.frame.width - 20.0
         let frame = CGRect(x: 10.0, y: 10.0, width: width, height: width)
-        
-        let puzzleView = PuzzleView(frame: frame, puzzle: buildTestPuzzle(), isEditable: false)
+        puzzleView = PuzzleView(frame: frame, puzzle: buildEmptyPuzzle(), isEditable: true)
         self.view.addSubview(puzzleView)
     }
     
@@ -33,6 +34,17 @@ class EntryViewController: UIViewController {
         return testPuzzle
     }
     
+    private func buildEmptyPuzzle() -> [[Int]] {
+        var emptyPuzzle = [[Int]]()
+        for _ in 0...8 {
+            var row = [Int]()
+            for _ in 0...8 {
+                row.append(0)
+            }
+            emptyPuzzle.append(row)
+        }
+        return emptyPuzzle
+    }
     
     
 }

@@ -37,7 +37,7 @@ extension UIImage {
         
         return result
     }
-    
+
     public func debugPrint() {
         guard let pixelMap = getPixelMap() else {
             print("Unable to get pixel map!")
@@ -53,7 +53,6 @@ extension UIImage {
             print(line)
         }
     }
-    
     
     /// Borrowed from http://stackoverflow.com/questions/39310729/problems-with-cropping-a-uiimage-in-swift
     ///

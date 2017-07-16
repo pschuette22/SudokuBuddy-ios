@@ -27,6 +27,7 @@ class Board {
     
     var possibilityChangedMade = 0
     
+    var isSolved = false
     
     init(values: [[Int]]) {
         
@@ -222,8 +223,6 @@ class Board {
     
     func solve() {
         
-        var isSolved = false
-        
         while !isSolved {
             while !solveable.isEmpty {
                 solveable[0].solve()
@@ -303,6 +302,23 @@ class Board {
                 }
             }
         }
+    }
+    
+    func values() -> [[Int]] {
+        var result = [[Int]]()
+        for x in 0..<9 {
+            var row = [Int]()
+            for y in 0..<9 {
+                let cell = cells[x][y]
+                if cell.isSolved {
+                    row.append(Int(cell.value!))
+                } else {
+                    row.append(0)
+                }
+            }
+            result.append(row)
+        }
+        return result
     }
     
 }
